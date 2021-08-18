@@ -38,7 +38,7 @@ nav{
     
 }
 nav > a{
-    color: white;
+    color: rgb(61, 146, 54);
     text-decoration: none;
     font-weight: bold;
 }
@@ -94,8 +94,50 @@ picture>img{
     margin-left: auto;
     margin-right: auto; 
 }
+aside{
+    background-color: rgba(160, 252, 68, 0.555);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(160, 252, 68, 0.555);
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+aside > h3{
+    background-color: rgba(0, 128, 0, 0.493);
+    color: white;
+    margin: -10px -10px 0px -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
 footer{
     background-color: darkgreen;
     color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
 }
-
+footer > a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: chartreuse;
+}
+div.video{
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 60%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
